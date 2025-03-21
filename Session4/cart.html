@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 35px;
+        }
+
+        #container div {
+            height: 600px;
+            width: 400px;
+            border: 1px solid black;
+            border-radius: 3px;
+            transition: all 1s ease;
+        }
+
+        #container div:hover {
+            scale: 1.05;
+        }
+
+        #container img {
+            height: 350px;
+            width: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+    </div>
+    <script src="cart.js"></script>
+</body>
+
+</html>
